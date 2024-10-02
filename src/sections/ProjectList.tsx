@@ -1,5 +1,12 @@
+import ProjectCarousel from "@/components/widgets/ProjectCarousel"
+
+
 export const ProjectList = () => {
+  
   return (
-    <section id="projects">ProjectList</section>
-  )
+    <section id="projects">
+      
+      <ProjectCarousel />
+    </section>
+  );
 }

@@ -1,39 +1,19 @@
 
+
 import { DragCards } from '@/components/widgets/TeamCard';
+
 
 export const OurTeam = () => {
 
-    //  const words = [
-    //    {
-    //      text: "Get",
-    //      className: "text-white",
-    //    },
-    //    {
-    //      text: "to",
-    //      className: "text-white",
-    //    },
-      
-       
-    //    {
-    //      text: "Know",
-    //      className: "text-white",
-    //    },
-    //    {
-    //      text: "Us",
-    //      className: "text-white",
-    //    },
-    //  ];
-
+   
 
 
   return (
-    <section id="team" className="bg-black  text-white">
-      {/* <div className="w-8/12 mx-auto ">
-        <div className="flex justify-center">
-          <TypewriterEffectSmooth words={words} />
-        </div>
-        <TextGenerateEffectDemo />
-      </div> */}
+    <section id="team" className=" text-white">
+      {/* <TypewriterEffectSmoothDemo words={words} /> */}
+      <p className="text-5xl text-white text-center font-semibold mt-6 ">
+        Our Team
+      </p>
       <DragCards />
     </section>
   );
